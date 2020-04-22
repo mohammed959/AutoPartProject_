@@ -1,0 +1,60 @@
+body
+{
+    background-color: white;
+}
+*
+{
+    padding:0px;
+    margin: 0px;
+}
+div
+{
+    
+    height: 90px;
+    margin-bottom: 20px; 
+    background-image: linear-gradient(to bottom right, red, yellow);
+
+}
+
+
+
+
+div p
+{
+    float: right;
+    margin-top: 35px;
+    margin-right: 140px;
+    font-size: 30px;
+   
+   
+}
+22B5F26EF364289DDEF561A8B1DA7E4B267CB70E248C66C1F12248AB691F64EE7191F95ED54A636587984F47DDFA18815CA7D2F5EDF45CD1A5C15C4313C45C01
+.search
+{
+    float:right;
+    margin-top: 60px;
+    margin-right: 130px;
+    width:400px;
+    height: 30px;
+    border-radius: 10px;
+   
+}
+.quit
+{
+    float: right;
+    margin-top: 34;
+    margin-right: 60px;
+    height: 30px;
+    width: 100px;
+}
+span
+{
+    float:right;
+    margin-top: 38;
+    margin-right: 120px;
+    font-size: 20px;
+}
+h2
+{
+    text-align: center;
+}

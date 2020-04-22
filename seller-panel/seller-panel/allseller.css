@@ -1,0 +1,32 @@
+
+.seller-adding-part
+{
+    margin: 0 auto;
+
+}
+label
+{
+    font-size: 20pt;
+}
+.text
+{
+    width: 220px;
+    height: 30px;
+}
+.submit
+{
+
+    font-size: larger;
+}
+table{
+   margin-right: 350px;
+    margin-bottom: 170px;
+}
+.last
+{
+    background-color: white;
+}
+.submit
+{
+    width: 40px;
+}

@@ -1,0 +1,192 @@
+/*
+Main Color: #4ABDAC
+Main Color Lighter: #53d4c1
+Second Color (Orange): #FC4A1A
+Third Color (Yellow): #F7B733
+Grey: #DFDCE3
+*/
+
+/*
+*
+*   Panel Menu
+*
+*/
+
+#main-menu-container {
+    float: right;
+    width: 225px;
+    background: #f5f5f5;
+    position: fixed;
+    bottom: 0;
+    padding-top: 80px;
+    top: 0;
+    border-left: #cfcfcf solid 1px;
+    overflow-y: auto;
+}
+
+#main-menu-container h5 {
+    color: #0b7a69;
+    font-family: DroidArabicKufiRegular;
+    padding: 3px 5px;
+    background: #A3CBC5;
+    border-radius: 50px 0 0 50px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+#main-menu-container ul li a {
+    display: block;
+    text-decoration: none;
+    color: #4e4e4e;
+    padding: 3px 10px;
+    font-family: DroidArabicKufiRegular;
+    font-size: 14px;
+}
+
+#main-menu-container ul li a:hover {
+    background: #e9e9e9;
+    border-radius: 50px 0 0 50px;
+    margin-left: 5px;
+}
+
+#main-menu-container ul li {
+    border-bottom: 1px solid #d4d4d4;
+}
+
+#main-menu-container ul li:last-of-type {
+    border: none;
+}
+
+/*
+*
+*   Panel Content
+*
+*/
+
+#admin-panel-content {
+    float: right;
+    margin-right: 225px;
+    flex-grow: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*
+*
+*   MAIN CONTENT
+*
+*/
+
+#admin-statistics {
+    width: 500px;
+    margin-top: 50px;
+}
+
+#admin-statistics td, #admin-parts-statistics td {
+    width: 250px;
+    padding: 10px;
+}
+
+#admin-parts-statistics {
+    width: 500px;
+}
+
+.admin-search {
+    margin-top: 50px;
+    width: 500px;
+    position: relative;
+}
+
+.admin-search input {
+    width: 500px;
+    height: 45px;
+    border-radius: 50px;
+    border: none;
+    padding-right: 15px;
+    font-size: 24px;
+    float: right;
+}
+
+.admin-search .search-submit {
+    line-height: 45px;
+}
+
+.admin-table-container {
+    font-family: DroidArabicKufiRegular;
+    margin-top: 50px;
+}
+
+.admin-table-container table {
+    background: #fff;
+    border: #cfcfcf solid 1px;
+    min-width: 800px;
+}
+
+.admin-table-container th {
+    background: #F7B733;
+    color: #fff;
+    border: none;
+    padding: 5px 0;
+}
+
+.admin-table-container td {
+    padding: 5px 20px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.admin-table-container a {
+    text-decoration: none;
+    color: #333;
+}
+
+.admin-table-container i {
+    padding: 0 10px;
+}
+
+.admin-pagination {
+    margin: 10px;
+}
+
+.input, select {
+    width: 250px;
+    border-radius: 50px;
+    padding: 5px;
+    border: none;
+    text-align: center;
+    height: 30px;
+}
+
+.input-group label {
+    display: inline-block;
+    width: 150px;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.admin-form-container {
+    margin-top: 50px;
+}
+
+.admin-form-container form {
+    padding: 10px;
+}
+
+.admin-form-container .btn-save {
+    display: block;
+    height: 30px;
+    padding: 0px 30px;
+    margin: 10px auto;
+}
+
+.admin-message {
+    margin: 50px 0 0 0;
+}
